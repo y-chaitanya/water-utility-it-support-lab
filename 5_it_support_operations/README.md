@@ -55,13 +55,16 @@ The exercises use macOS and other tools available in a personal environment. Win
 
 ## Planned Learning Areas
 
-**User access scenarios**
-- User account concepts, authentication and authorization.
-- Access permissions and Active Directory fundamentals.
-
-**Windows support**
+**[Windows Support](06_windows_support/README.md) (Planned)**
 - Windows troubleshooting and command-line diagnostics.
-- Application and workstation support scenarios.
+- Application installation and workstation support.
+- Basic Windows system administration.
+
+**[User Access and Active Directory](07_user_access_and_active_directory/README.md) (Planned)**
+- User account management concepts.
+- Authentication and authorization.
+- Access permissions and security groups.
+- Active Directory fundamentals.
 
 ## Documentation Standards
 
