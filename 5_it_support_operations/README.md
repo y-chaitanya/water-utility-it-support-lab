@@ -1,78 +1,103 @@
-# IT Support and Systems Administration Lab
+# IT Support Operations Lab
 
-**Status:** In Progress  
-**Started:** October 2026  
-**Environment:** macOS development environment; Windows practice environment to be documented separately when completed
+## Overview
 
-## 1. Purpose
+This lab is a hands-on learning project for practical IT support, troubleshooting and systems administration skills. Each exercise is performed, documented and committed with Git, so the record shows what was done and when.
 
-This lab is a structured learning project focused on foundational IT support and systems administration tasks.
+The exercises use macOS and other tools available in a personal environment. Windows and Active Directory exercises will be added only after they have actually been performed.
 
-It extends the existing Water Utility Operations Database project with a separate set of exercises covering user access concepts, network troubleshooting, Windows support, help-desk operations, and IT asset management.
+## Learning Objectives
 
-The goal is to develop practical troubleshooting skills, document technical procedures, and maintain evidence of completed exercises.
+- Develop systematic troubleshooting skills.
+- Understand network connectivity and DNS operations.
+- Inspect network interfaces, routing and network configuration.
+- Practice help desk ticket documentation and escalation.
+- Practice IT asset inventory and documentation.
+- Write user-facing knowledge base articles in plain language.
+- Build familiarity with Windows desktop support and Active Directory (planned).
+- Maintain technical records using Git and Markdown.
 
-## 2. Learning Areas
-
-### 01 — User Access Scenarios
-- Understand user accounts, groups, roles, and permissions.
-- Practice least-privilege access concepts.
-- Document access problems and troubleshooting steps.
-- Distinguish database permissions from operating-system permissions.
-
-### 02 — Network Troubleshooting
-- Study foundational TCP/IP, DNS, and DHCP concepts.
-- Practice network diagnostic commands.
-- Document connectivity issues, observations, and troubleshooting results.
-
-### 03 — Windows Support
-- Learn Windows desktop support fundamentals.
-- Explore operating-system settings and software installation.
-- Study common login, application, and performance issues.
-- Document hands-on Windows exercises when performed.
-
-### 04 — Help-Desk Ticket Management
-- Create fictional end-user support scenarios.
-- Document symptoms, priority, investigation, resolution, and escalation.
-- Maintain clear troubleshooting and closure notes.
-
-### 05 — IT Asset Inventory
-- Create a fictional IT asset inventory.
-- Track device identifiers, assigned users, operating systems, and software.
-- Document sample maintenance and support history.
-
-## 3. Evidence and Documentation
-
-The `evidence/` directory will contain relevant screenshots, command outputs, test results, and supporting documentation.
-
-Each exercise will be identified accurately as one of the following:
-
-- **Planned:** Not yet started.
-- **In Progress:** Work has started but is not complete.
-- **Completed:** The exercise has been performed and its results documented.
-- **Simulated:** The scenario uses fictional data or a simulated workflow rather than a real administrative environment.
-
-## 4. Scope and Limitations
-
-This is a learning and demonstration environment. It does not represent administration of a production corporate network, enterprise Active Directory environment, or live help-desk system.
-
-Only fictional users, devices, and organizational information will be used in public examples.
-
-Practical Windows administration experience will be documented only after the corresponding tasks have actually been performed.
-
-## 5. Project Structure
+## Project Structure
 
 ```text
 5_it_support_operations/
 ├── README.md
-├── 01_user_access_scenarios/
 ├── 02_network_troubleshooting/
-├── 03_windows_support/
-├── 04_helpdesk_ticket_management/
-├── 05_asset_inventory/
-└── evidence/
+│   ├── 01_basic_connectivity_test.md
+│   ├── 02_dns_lookup_test.md
+│   ├── 03_traceroute_test.md
+│   └── 04_network_configuration_inspection.md
+├── 03_help_desk_tickets/
+│   └── ticket_log.md
+├── 04_asset_inventory/
+│   └── hardware_software_inventory.md
+└── 05_knowledge_base/
+    ├── kb01_user_cannot_sign_in.md
+    └── kb02_printer_offline.md
 ```
 
-## 6. Learning Approach
+## Completed Exercises
 
-Exercises will be completed incrementally. Each completed task will include its objective, procedure, observations, outcome, and supporting evidence where appropriate.
+| # | Exercise | Status | What it shows |
+|---|---|---|---|
+| 01 | [Basic connectivity test](02_network_troubleshooting/01_basic_connectivity_test.md) | Completed | `ping`, packet loss and response times; 0% loss |
+| 02 | [DNS lookup](02_network_troubleshooting/02_dns_lookup_test.md) | Completed | `nslookup`, configured DNS server, returned IPv4 addresses |
+| 03 | [Traceroute](02_network_troubleshooting/03_traceroute_test.md) | Completed | `traceroute`, network path, destination reached in six hops |
+| 04 | [Network configuration inspection](02_network_troubleshooting/04_network_configuration_inspection.md) | Completed | `ifconfig`, default gateway with `route`, `scutil` DNS and VPN settings, `dig`; tunnel interfaces identified without assuming an active VPN |
+| 05 | [Help desk ticket log](03_help_desk_tickets/ticket_log.md) | Simulated | Eight tickets classified by category and priority; 6 of 8 resolved at first contact, 2 escalated with scope |
+| 06 | [Hardware and software inventory](04_asset_inventory/hardware_software_inventory.md) | Completed | Data collected with system commands; asset IDs, versions; serials masked |
+| 07 | [KB01: I can't sign in](05_knowledge_base/kb01_user_cannot_sign_in.md) | Completed | User-facing steps in plain language, with what to send the help desk |
+| 08 | [KB02: Printer shows offline](05_knowledge_base/kb02_printer_offline.md) | Completed | User-facing steps, with a rule for when to escalate |
+
+## Planned Learning Areas
+
+**User access scenarios**
+- User account concepts, authentication and authorization.
+- Access permissions and Active Directory fundamentals.
+
+**Windows support**
+- Windows troubleshooting and command-line diagnostics.
+- Application and workstation support scenarios.
+
+## Documentation Standards
+
+Each completed exercise includes:
+
+- Objective
+- Environment
+- Commands or procedures performed
+- Findings and observations
+- Troubleshooting conclusion
+- Scope and limitations
+- Completion status
+
+## Tools and Technologies
+
+- macOS Terminal
+- Git and GitHub
+- Markdown
+- Network diagnostic utilities: `ping`, `nslookup`, `traceroute`, `dig`
+- macOS network configuration utilities: `ifconfig`, `route`, `scutil`
+- System inventory: `system_profiler`, `sw_vers`
+
+## Environment and Limitations
+
+This is a personal learning and demonstration environment.
+
+- Exercises are performed on personal systems or simulated scenarios.
+- No production corporate network or live enterprise help desk is used.
+- Fictional users and devices are used for simulated support tickets.
+- Device identifiers are masked or left out of published documents.
+- Windows administration and Active Directory experience will be documented only after the exercises have actually been performed.
+- No production systems or user accounts are modified.
+
+## Progress Tracking
+
+- **Planned:** not started.
+- **In Progress:** currently being practiced.
+- **Completed:** performed and documented.
+- **Simulated:** practiced with a fictional scenario or test environment.
+
+## Purpose
+
+This project demonstrates continuous hands-on learning in IT support operations, troubleshooting, technical documentation and systems administration fundamentals, with an accurate record of what has and has not been done.
