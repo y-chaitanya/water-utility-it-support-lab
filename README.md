@@ -1,3 +1,15 @@
+## Portfolio Projects
+
+This repository contains two hands-on technical projects demonstrating database administration, IT operations, troubleshooting, and technical documentation.
+
+### 1. Water Utility Operations Database
+A SQL Server project covering database design, security, automation, backup and recovery, monitoring, and performance tuning.
+
+### 2. IT Support Operations Lab
+A practical IT support learning project covering network diagnostics, simulated help desk tickets, hardware and software inventory, and user-facing knowledge base documentation.
+
+**[Explore the IT Support Operations Lab →](5_it_support_operations/README.md)**
+
 # 🌊 Water Utility Operations Database
 
 **A working, end-to-end SQL Server project covering requirements, schema design, security, automation, recovery, monitoring, and performance tuning — modeled on water-utility operations.**
