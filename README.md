@@ -74,7 +74,7 @@ water-utility-it-support-lab/
 └── Screenshots/               → screenshots of the scripts running on the live environment
 ```
 
-Each layer folder has its own README with a data dictionary and details.
+Each folder has its own README with details.
 
 ---
 
