@@ -65,12 +65,13 @@ Full / differential / log backups with point-in-time restore, a post-refresh val
 ## 🏗️ How it's organized
 
 ```
-water-utility-operations-database/
-├── 1_data_layer/          → schema, keys, constraints, sample data
-├── 2_security_layer/      → roles, users, least-privilege GRANT/REVOKE
-├── 3_automation_layer/    → audit-log and anomaly-alert triggers
-├── 4_operations_layer/    → backups + recovery, validation, monitoring, tuning, scheduled maintenance
-└── Screenshots/           → screenshots of the scripts running on the live environment
+water-utility-it-support-lab/
+├── 1_data_layer/              → schema, keys, constraints, sample data
+├── 2_security_layer/          → roles, users, least-privilege GRANT/REVOKE
+├── 3_automation_layer/        → audit-log and anomaly-alert triggers
+├── 4_operations_layer/        → backups + recovery, validation, monitoring, tuning, scheduled maintenance
+├── 5_it_support_operations/   → IT Support Operations Lab (network, tickets, inventory, KB)
+└── Screenshots/               → screenshots of the scripts running on the live environment
 ```
 
 Each layer folder has its own README with a data dictionary and details.
