@@ -31,9 +31,13 @@ The exercises use macOS and other tools available in a personal environment. Win
 │   └── ticket_log.md
 ├── 04_asset_inventory/
 │   └── hardware_software_inventory.md
-└── 05_knowledge_base/
-    ├── kb01_user_cannot_sign_in.md
-    └── kb02_printer_offline.md
+├── 05_knowledge_base/
+│   ├── kb01_user_cannot_sign_in.md
+│   └── kb02_printer_offline.md
+├── 06_windows_support/                    (planned)
+│   └── README.md
+└── 07_user_access_and_active_directory/   (planned)
+    └── README.md
 ```
 
 ## Completed Exercises
